@@ -110,12 +110,6 @@ def banner():
  ╚╗╔╝║║─║║║─╔╗║║║╚═╝║║║─║║║─╔╣╔══╣╚═╝║
 ──║║─║╚═╝║╚═╝╠╣╠╣╔═╗║║╚═╝║╚═╝║║──║╔═╗║
 ──╚╝─╚═══╩═══╩══╩╝─╚╝╚═══╩═══╩╝──╚╝─╚╝"""))
-    print ("""\x1b[0;37m────────────────────────────────────────────────────
-\x1b[0;37m [\x1b[0;32m•\x1b[0;37m]\x1b[0;33m Nama     : Yulia Ulfa
-\x1b[0;37m [\x1b[0;32m•\x1b[0;37m]\x1b[0;33m Github   : https://github.com/Yuliaulfa
-\x1b[0;37m [\x1b[0;32m•\x1b[0;37m]\x1b[0;33m Facebook : https://www.facebook.com/Yuliaulfax
-\x1b[0;37m────────────────────────────────────────────────────""")) 
-    print (' %s#%s IP   %s:%s %s%s '%(U,O,M,O,IP,M))
 
 # TOKEN
 header = {"x-fb-connection-bandwidth": str(random.randint(20000000.0, 30000000.0)), "x-fb-sim-hni": str(random.randint(20000, 40000)), "x-fb-net-hni": str(random.randint(20000, 40000)), "x-fb-connection-quality": "EXCELLENT", "x-fb-connection-type": "cell.CTRadioAccessTechnologyHSDPA", "user-agent": "NokiaC3-00/5.0 (07.20) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+ ;]", "content-type": "application/x-www-form-urlencoded", "x-fb-http-engine": "Liger"}
