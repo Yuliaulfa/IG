@@ -64,9 +64,6 @@ U = '\x1b[1;95m' # UNGU
 O = '\x1b[1;96m' # BIRU MUDA
 P = '\x1b[1;97m' # PUTIH
 N = '\x1b[0m' # WARNA MATI
-P1 = "\x1b[0;37m" # PUTIH
-H1 = "\x1b[0;32m" # HIJAU
-K1 = "\x1b[0;33m" # KUNING
 acak = [M, H, K, B, U, O, P]
 warna = random.choice(acak)
 til ="•" 
@@ -102,12 +99,6 @@ def folder():
 		open("data/ua.txt","w").write(ua_)
 	except:
 		pass
-# Banner
-IP = requests.get("https://api.ipify.org/").text
-exec(base64.b64decode('YXV0aG9yID0iUm9taSBBZnJpemFsIgpmYl9tZSA9ImZhY2Vib29rLmNvbS9yb21pLmFmcml6YWwuMTAyIgpnaXRodWIgPSJnaXRodWIuY29tL01hcmstWnVjayI='))
-def banner(): 
-    print ("""\x1b[1;92m CRACK INSTAGRAM GRATIS """)) 
-    print (' %s#%s IP   %s:%s %s%s '%(U,O,M,O,IP,M))
 
 # TOKEN
 header = {"x-fb-connection-bandwidth": str(random.randint(20000000.0, 30000000.0)), "x-fb-sim-hni": str(random.randint(20000, 40000)), "x-fb-net-hni": str(random.randint(20000, 40000)), "x-fb-connection-quality": "EXCELLENT", "x-fb-connection-type": "cell.CTRadioAccessTechnologyHSDPA", "user-agent": "NokiaC3-00/5.0 (07.20) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+ ;]", "content-type": "application/x-www-form-urlencoded", "x-fb-http-engine": "Liger"}
