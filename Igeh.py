@@ -106,13 +106,6 @@ def folder():
 IP = requests.get("https://api.ipify.org/").text
 exec(base64.b64decode('YXV0aG9yID0iUm9taSBBZnJpemFsIgpmYl9tZSA9ImZhY2Vib29rLmNvbS9yb21pLmFmcml6YWwuMTAyIgpnaXRodWIgPSJnaXRodWIuY29tL01hcmstWnVjayI='))
 def banner(): 
-    print ("""\n\x1b[0;32m
-╔╗──╔╦╗─╔╦╗──╔══╦═══╗╔╗─╔╦╗──╔═══╦═══╗
-║╚╗╔╝║║─║║║──╚╣╠╣╔═╗║║║─║║║──║╔══╣╔═╗║
-╚╗╚╝╔╣║─║║║───║║║║─║║║║─║║║──║╚══╣║─║║
- ╚╗╔╝║║─║║║─╔╗║║║╚═╝║║║─║║║─╔╣╔══╣╚═╝║
-──║║─║╚═╝║╚═╝╠╣╠╣╔═╗║║╚═╝║╚═╝║║──║╔═╗║
-──╚╝─╚═══╩═══╩══╩╝─╚╝╚═══╩═══╩╝──╚╝─╚╝"""))
     print ("""\x1b[0;37m────────────────────────────────────────────────────
 \x1b[0;37m [\x1b[0;32m•\x1b[0;37m]\x1b[0;33m Nama     : Yulia Ulfa
 \x1b[0;37m [\x1b[0;32m•\x1b[0;37m]\x1b[0;33m Github   : https://github.com/Yuliaulfa
