@@ -227,6 +227,7 @@ ugent = random.choice([
 ])
 
 # MENU
+def menu()
 def menu_igeh():
 	print ('\n%s•%s 01 %sCrack followers public'%(U,P,O))
 	print ('%s•%s 02 %sCrack pencarian nama'%(U,P,O))
@@ -482,4 +483,4 @@ if __name__ == '__main__':
 	os.system("git pull")
 	folder()
 	log_igeh()
-	menu_igeh()
+	menu()
